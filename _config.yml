@@ -105,3 +105,8 @@ deploy:
   repo: https://github.com/youcome22/Blaze.git
   branch: main
   message: 
+
+# aplayer
+## Docs: https://github.com/MoePlayer/hexo-tag-aplayer/
+# aplayer:
+#   asset_inject: false
