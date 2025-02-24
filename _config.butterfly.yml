@@ -59,10 +59,10 @@ social:
 # Image Settings
 # --------------------------------------
 
-favicon: /media_library/icon/favicon.svg
+favicon: /gallery/media/images/icon/favicon.svg
 
 avatar:
-  img: /media_library/image/avatar.jpg
+  img: /gallery/media/images/avatar.jpg
   effect: false
 
 # Disable all banner images
@@ -72,7 +72,7 @@ disable_top_img: false
 default_top_img:
 
 # The banner image of index page
-index_img: /media_library/image/005.jpg
+index_img: /gallery/media/images/005.jpg
 
 # The banner image of archive page
 archive_img:
@@ -106,8 +106,7 @@ cover:
   aside_enable: true
   archives_enable: true
   # When cover is not set, the default cover is displayed
-  default_cover:
-    - /media_library/image/default_cover.png
+  default_cover: /gallery/media/images/default_cover.png
 
 # Replace Broken Images
 error_img:
@@ -170,13 +169,10 @@ subtitle:
   source: false
   # If you close the typewriter effect, the subtitle will only show the first line of sub
   sub:
-    - 先帝创业未半而中道崩殂
-    - 今天下三分&#44;益州疲弊&#44;此诚危急存亡之秋也
-    - 然侍卫之臣不懈于内&#44;忠志之士忘身于外者
-    - 盖追先帝之殊遇&#44;欲报之于陛下也。
-    - 诚宜开张圣听&#44;以光先帝遗德&#44;恢弘志士之气
-    - 不宜妄自菲薄&#44;引喻失义&#44;以塞忠谏之路也。
-    
+    - 未经审视的人生不值得过&nbsp;&nbsp;——苏格拉底
+    - 世界上只有一种真正的英雄主义&#44;那就是在认清生活的真相后依然热爱生活&nbsp;&nbsp;——罗曼·罗兰
+    - 知之者不如好之者&#44;好之者不如乐之者&nbsp;&nbsp;——老子
+    - 每一个不曾起舞的日子&#44;都是对生命的辜负&nbsp;&nbsp;——尼采
 
 # Article layout on the homepage
 # 1: Cover on the left, info on the right
@@ -223,10 +219,10 @@ reward:
   enable: true
   text:
   QR_code:
-    - img: /media_library/image/wechat.jpg
+    - img: /gallery/media/images/wechat.jpg
       link:
       text: wechat
-    - img: /media_library/image/alipay.jpg
+    - img: /gallery/media/images/alipay.jpg
       link:
       text: alipay
 
@@ -271,7 +267,7 @@ footer:
   owner:
     enable: true
     since: 2025
-  custom_text: Hi, welcome to my <a href="https://butterfly.js.org/">blog</a>!
+  custom_text: Hi, Welcome to my blog
   # Copyright of theme and framework
   copyright: true
 
@@ -293,7 +289,7 @@ aside:
     category: true
   card_author:
     enable: true
-    description: my name is blaze, like a fire
+    description: "穷且益坚&#44;&nbsp;不坠青云之志"
     button:
       enable: true
       icon: fab fa-github
@@ -301,9 +297,9 @@ aside:
       link: https://github.com/xxxxxx
   card_announcement:
     enable: true
-    content: This is my Blog
+    content: 暂无公告...
   card_recent_post:
-    enable: true
+    enable: false
     # If set 0 will show all
     limit: 5
     # Sort: date / updated
@@ -334,7 +330,7 @@ aside:
     order: 1
     sort_order:
   card_archives:
-    enable: true
+    enable: false
     # Type: monthly / yearly
     type: monthly
     # Eg: YYYY年MM月
@@ -444,8 +440,8 @@ wordcount:
 
 # Busuanzi count for PV / UV in site
 busuanzi:
-  site_uv: true
-  site_pv: true
+  site_uv: false
+  site_pv: false
   page_pv: true
 
 # --------------------------------------

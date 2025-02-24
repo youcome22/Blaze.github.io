@@ -6,9 +6,9 @@ tags: development tool
 categories: Tools
 keywords:
 description:
-top_img: /info/001.jpg
+top_img: 
 comments: true
-cover: /info/004.jpg
+cover: 
 toc:
 toc_number:
 toc_style_simple:

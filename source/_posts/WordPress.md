@@ -6,10 +6,10 @@ tags:
 categories:
 keywords:
 description:
-top_img: /info/001.jpg
+top_img: 
 comments:
-cover:
-toc:
+cover: 
+toc: 
 toc_number:
 toc_style_simple:
 copyright:
